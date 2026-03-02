@@ -1,0 +1,6 @@
+.job_widget #widget-header {
+    display: none !important;
+}
+.job_widget #footer {
+    display: none !important;
+}
