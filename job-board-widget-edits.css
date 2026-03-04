@@ -1,6 +1,25 @@
-.job_widget #widget-header {
+[class*="embed-code-1"]:has(iframe) {
+    height: 459.4px;
+    overflow: hidden;
+}
+body.job_widget {
+    margin: 0;
+    height: 461px;
+    min-height: 461px;
+    overflow: hidden;
+}
+body.job_widget #widget-header {
     display: none !important;
 }
-.job_widget #footer {
+body.job_widget #footer {
     display: none !important;
+}
+body.job_widget #widgetContainer {
+    height: 461px;
+    overflow: hidden;
+}
+body.job_widget #widget-content {
+    height: 459.4px;
+    overflow: hidden;
+    border-radius: 0;
 }
