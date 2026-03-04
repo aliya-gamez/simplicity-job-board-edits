@@ -12279,9 +12279,7 @@ jobs-discovery .discovery-filter-list {
   border-radius: 5.5px;
 }
 .job_widget #widget-header {
-  width: 100%;
-  position: relative;
-  background: white;
+  display: none;
 }
 .job_widget #si_ei {
   padding-top: 64px;
